@@ -17,6 +17,7 @@ Java 1.8.0_321 </br>
 Java SE Runtime Environment build 1.8.0_321-b07 </br>
 Java HotSpot 64-Bit Server VM build 25.321-b07, mixed mode </br>
 javac 17.0.2 </br>
+Ghidra Version 10.1.2 Build PUBLIC
 
 Steps to reproduce
 1) Create Java file
