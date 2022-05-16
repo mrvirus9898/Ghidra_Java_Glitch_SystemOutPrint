@@ -3,7 +3,9 @@ A demonstration, using Ghidra, that System Out Print in Java causes a logic glit
 
 Ghidra Java C Bytecode Compiler Glitch 
 
-TL; DR JAVA ASSIGNS A VARIABLE TO A PRINT STREAM OBJECT BEFORE EVERY SINGLE SYSTEM.OUT.PRINT STATEMENT, DOUBLING ALL SYSTEM.OUT.PRINT LINES IN BYTECODE.
+TL; DR JAVA ASSIGNS A VARIABLE TO A PRINT STREAM OBJECT BEFORE EVERY SINGLE SYSTEM.OUT.PRINT STATEMENT, DOUBLING ALL SYSTEM.OUT.PRINT LINES IN BYTECODE. THIS CAN BE FIXED BY DECLARING A PRINTSTREAM OBJECT YOURSELF.
+
+![alt text](https://raw.githubusercontent.com/mrvirus9898/Ghidra_Java_Glitch_SystemOutPrint/main/SystemPrint%20Demo/SystemPrint%20Picture%201.PNG)
 
 Requirements to reproduce:
 Java installed on computer
